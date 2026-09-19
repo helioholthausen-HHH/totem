@@ -59,10 +59,10 @@
         alt_r {
             display-name = "ALT_R";
             bindings = <
-&trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(TAB)
-&trans  &trans  &trans  &kp LA(SPACE)  &trans  &trans
+&trans       &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans       &trans
+&kp LA(TAB)  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans       &trans
+&trans       &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans
+&trans       &trans  &trans  &kp LA(SPACE)  &trans  &trans
             >;
         };
 
