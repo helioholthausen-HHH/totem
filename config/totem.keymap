@@ -3,6 +3,16 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    macros {
+        del_line_left: del_line_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings = <&kp LS(HOME) &kp BACKSPACE>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -19,10 +29,10 @@
         nav_num {
             display-name = "nav_num";
             bindings = <
-&kp LA(BACKSPACE)   &kp BACKSPACE     &kp UP        &kp DELETE  &kp LA(DELETE)   &kp N5              &kp N6      &kp N7    &kp N8     &kp N9
-&kp LA(LEFT_ARROW)  &kp LEFT          &kp DOWN      &kp RIGHT   &kp LA(RIGHT)    &kp N0              &kp N1      &kp N2    &kp N3     &kp N4
-&kp LG(BACKSPACE)   &kp LG(UP_ARROW)  &kp LG(LEFT)  &kp ENTER   &kp LG(RIGHT)    &kp LG(DOWN_ARROW)  &kp PERIOD  &kp PLUS  &kp MINUS  &kp STAR  &kp FSLH  &kp CARET
-&trans              &trans            &trans        &kp EQUAL   &kp RIGHT_SHIFT  &kp PERCENT
+&kp LC(BACKSPACE)   &kp BACKSPACE  &kp UP    &kp DELETE  &kp LC(DELETE)  &kp N5       &kp N6      &kp N7    &kp N8     &kp N9
+&kp LC(LEFT_ARROW)  &kp LEFT       &kp DOWN  &kp RIGHT   &kp LC(RIGHT)   &kp N0       &kp N1      &kp N2    &kp N3     &kp N4
+&del_line_left       &kp LC(HOME)   &kp HOME  &kp ENTER   &kp END         &kp LC(END)  &kp PERIOD  &kp PLUS  &kp MINUS  &kp STAR  &kp FSLH  &kp CARET
+&trans               &trans         &trans    &kp EQUAL   &kp RIGHT_SHIFT &kp PERCENT
             >;
         };
 
