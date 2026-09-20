@@ -82,7 +82,7 @@ layers:
   - ESC
   - '{'
   - '}'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ´, s: '`'}
   - '&caps_word'
   - F1
   - F2
