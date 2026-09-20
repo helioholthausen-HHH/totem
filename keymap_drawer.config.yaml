@@ -122,4 +122,35 @@ parse_config:
       type: none
 
     "&bt BT_SEL 0":
-      shifted: $$mdi:bluetooth-connect$$
+      shifted: $mdi:bluetooth-connect$
+
+    # ABNT2 semantic legends: show what Windows actually produces,
+    # instead of the US-position legend used by ZMK keycode names.
+    "&kp SEMI":
+      tap: "ç"
+      shifted: "Ç"
+
+    "&kp FSLH":
+      tap: ";"
+      shifted: ":"
+
+    "&kp APOS":
+      tap: "~"
+      shifted: "^"
+
+    "&kp GRAVE":
+      tap: "'"
+      shifted: '"'
+
+    "&kp LEFT_BRACE": "`"
+    "&kp RIGHT_BRACE": "{"
+    "&kp LBKT": "´"
+    "&kp RBKT": "["
+    "&kp BSLH": "]"
+    "&kp CARET": "¨"
+
+    # ALT_R ABNT2 symbols.
+    "&kp LS(N1)": "!"
+    "&kp LS(N2)": "@"
+    "&kp LS(N7)": "&"
+    "&kp RA(W)": "?"
