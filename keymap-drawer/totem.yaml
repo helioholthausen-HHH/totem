@@ -80,8 +80,8 @@ layers:
   - '%'
   sym_func:
   - ESC
-  - '`'
   - '{'
+  - '}'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&caps_word'
   - F1
@@ -90,10 +90,10 @@ layers:
   - F4
   - F5
   - TAB
-  - ´
   - '['
-  - ENTER
   - ']'
+  - ENTER
+  - {t: \, s: '|'}
   - F6
   - F7
   - F8
