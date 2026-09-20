@@ -39,7 +39,7 @@
         sym_func {
             display-name = "sym_func";
             bindings = <
-&kp ESC    &kp LS(RBKT)    &kp LS(BSLH)          &none                  &caps_word        &kp F1          &kp F2   &kp F3   &kp F4   &kp F5
+&kp ESC    &kp LS(RBKT)    &kp LS(BSLH)          &kp LBKT              &caps_word        &kp F1          &kp F2   &kp F3   &kp F4   &kp F5
 &kp TAB    &kp RBKT        &kp BSLH              &kp ENTER              &kp NON_US_BSLH   &kp F6          &kp F7   &kp F8   &kp F9   &kp F10
 &kp GRAVE  &kp LESS_THAN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &kp F16
 &trans     &trans          &trans                &none                  &kp RIGHT_SHIFT   &none
