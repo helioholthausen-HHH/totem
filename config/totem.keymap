@@ -61,7 +61,7 @@
             bindings = <
 &trans       &trans  &trans  &trans  &trans      &trans  &kp LS(N2)  &kp LS(N7)  &trans       &trans
 &kp LA(TAB)  &trans  &trans  &trans  &trans      &trans  &kp LS(N1)  &kp RA(W)   &trans       &trans
-&trans       &trans  &trans  &trans  &trans      &trans  &trans      &trans      &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans
+&trans       &trans  &trans  &trans  &trans      &trans  &trans      &kp RA(Q)   &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans
 &trans       &trans  &trans  &kp LA(SPACE)  &trans  &trans
             >;
         };
