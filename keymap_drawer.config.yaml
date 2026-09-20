@@ -124,6 +124,10 @@ parse_config:
     "&bt BT_SEL 0":
       shifted: $mdi:bluetooth-connect$
 
+    "&alt_tab_hold":
+      tap: "Alt+Tab"
+      hold: "hold Alt"
+
     # ABNT2 semantic legends: show what Windows actually produces,
     # instead of the US-position legend used by ZMK keycode names.
     "&kp SEMI":
