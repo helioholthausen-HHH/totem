@@ -142,7 +142,9 @@ parse_config:
       tap: "'"
       shifted: '"'
 
-    "&kp LBKT": "´"
+    "&kp LBKT":
+      tap: "´"
+      shifted: "`"
 
     "&kp LS(RBKT)": "{"
     "&kp LS(BSLH)": "}"
