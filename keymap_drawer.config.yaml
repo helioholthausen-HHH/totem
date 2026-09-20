@@ -159,3 +159,4 @@ parse_config:
     "&kp LS(N2)": "@"
     "&kp LS(N7)": "&"
     "&kp RA(W)": "?"
+    "&kp RA(Q)": "/"
