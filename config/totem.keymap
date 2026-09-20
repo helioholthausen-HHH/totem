@@ -11,6 +11,19 @@
             tap-ms = <40>;
             bindings = <&kp LS(HOME) &kp BACKSPACE>;
         };
+
+        alt_tab_hold: alt_tab_hold {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp TAB>
+                , <&macro_pause_for_release>
+                , <&macro_release &kp LALT>
+                ;
+        };
     };
 
     keymap {
@@ -60,7 +73,7 @@
             display-name = "ALT_R";
             bindings = <
 &trans       &trans  &trans  &trans  &trans      &trans  &kp LS(N2)  &kp LS(N7)  &trans       &trans
-&kp LA(TAB)  &trans  &trans  &trans  &trans      &trans  &kp LS(N1)  &kp RA(W)   &trans       &trans
+&alt_tab_hold &kp TAB &kp LS(TAB) &trans &trans      &trans  &kp LS(N1)  &kp RA(W)   &trans       &trans
 &trans       &trans  &trans  &trans  &trans      &trans  &trans      &kp RA(Q)   &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans
 &trans       &trans  &trans  &kp LA(SPACE)  &trans  &trans
             >;
