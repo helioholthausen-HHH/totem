@@ -142,11 +142,16 @@ parse_config:
       tap: "'"
       shifted: '"'
 
-    "&kp LEFT_BRACE": "`"
-    "&kp RIGHT_BRACE": "{"
     "&kp LBKT": "´"
+
+    "&kp LS(RBKT)": "{"
+    "&kp LS(BSLH)": "}"
     "&kp RBKT": "["
     "&kp BSLH": "]"
+    "&kp NON_US_BSLH":
+      tap: "\\"
+      shifted: "|"
+
     "&kp CARET": "¨"
 
     # ALT_R ABNT2 symbols.
