@@ -162,11 +162,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - CAPS
   - '@'
   - '&'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '1'
+  - '2'
   - {t: Alt+Tab, h: hold Alt}
   - TAB
   - Sft+TAB
@@ -175,8 +175,8 @@ layers:
   - {t: ;, s: ':'}
   - '!'
   - '?'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+1
+  - Alt+2
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -185,13 +185,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+/
   - /
-  - Alt+1
-  - Alt+2
-  - Alt+3
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+TAB
+  - {t: Alt+Tab, h: hold Alt}
+  - Sft+TAB
+  - ENTER
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+SPACE
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&caps_word'
   - {type: held}
