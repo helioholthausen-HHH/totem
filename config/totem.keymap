@@ -74,9 +74,9 @@
         alt_r {
             display-name = "ALT_R";
             bindings = <
-&trans         &trans   &trans       &trans         &trans  &trans         &kp LS(N2)         &kp LS(N7)  &trans      &trans
-&alt_tab_hold  &kp TAB  &kp LS(TAB)  &trans         &trans  &kp SEMICOLON  &kp LS(N1)         &kp RA(W)   &trans      &trans
-&trans         &trans   &trans       &trans         &trans  &trans         &kp RS(SEMICOLON)  &kp RA(Q)   &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans
+&trans         &trans   &trans       &trans         &trans  &trans    &kp LS(N2)     &kp LS(N7)  &trans      &trans
+&alt_tab_hold  &kp TAB  &kp LS(TAB)  &trans         &trans  &kp FSLH  &kp LS(N1)     &kp RA(W)   &trans      &trans
+&trans         &trans   &trans       &trans         &trans  &trans    &kp RS(SLASH)  &kp RA(Q)   &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans
 &trans         &trans   &trans       &kp LA(SPACE)  &trans  &trans
             >;
         };
